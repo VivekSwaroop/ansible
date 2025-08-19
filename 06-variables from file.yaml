@@ -1,5 +1,6 @@
 - name: variables in file
   hosts: localhost
+  connection: local
   vars_files:
     variables.yaml
   tasks:

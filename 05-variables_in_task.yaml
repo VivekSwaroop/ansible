@@ -1,5 +1,6 @@
 - name: variables in task
   hosts: localhost
+  connection: local
   vars:
     Course: "DevOps"
     Trainer: "Siva"

@@ -1,5 +1,6 @@
 - name: checking data types
   hosts: localhost
+  connection: local
   vars:
     NAME: Sivakumar # key value
     Skills: #Skills is a list type

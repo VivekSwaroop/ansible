@@ -1,5 +1,6 @@
 - name: loops
   hosts: localhost
+  connection: local
   become: yes
   tasks:
   - name: install or uninstall
