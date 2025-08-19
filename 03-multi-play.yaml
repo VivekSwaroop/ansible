@@ -1,6 +1,7 @@
 # playbook is a list of plays
 - name: play 1
   hosts: localhost
+  connection: local
   tasks:
   - name: play 1 and task 1
     ansible.builtin.debug:
@@ -8,6 +9,7 @@
   
 - name: play 2
   hosts: localhost
+  connection: local
   tasks:
   - name: play 2 and task 
     ansible.builtin.debug:
